@@ -1,0 +1,13 @@
+{
+    "name": "ImportExport",
+    "alias": "importexport",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\ImportExport\\Providers\\ImportExportServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,10 @@
+<?php
+
+namespace Modules\WareHouses\Entities;
+
+use Illuminate\Database\Eloquent\Model;
+
+class WareHouses extends Model
+{
+    protected $fillable = ['name','description','status','sort_order','user_id'];
+}

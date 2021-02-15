@@ -1,0 +1,1 @@
+{!!Form::select($name.'[]', $data, $value, ['class'=>'form-control input-sm m-bot15', 'multiple'=>'multiple','id'=>$name])!!}

@@ -1,0 +1,21 @@
+{
+    "Users": true,
+    "UsersRoles": true,
+    "MediaLibrary": true,
+    "Abc": true,
+    "CMS": true,
+    "Category": true,
+    "Courses": true,
+    "Curriculum": true,
+    "WareHouses": true,
+    "Stores": true,
+    "Suppliers": true,
+    "Brands": true,
+    "PaymentsMethods": true,
+    "Settings": true,
+    "Products": true,
+    "ImportExport": true,
+    "Manu": true,
+    "Slides": true,
+    "Variations": true
+}

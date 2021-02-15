@@ -1,0 +1,1 @@
+{!!  Form::submit($value,['class'=>"btn btn-success col-md-12","id"=>(isset($id))?$id:'']) !!}

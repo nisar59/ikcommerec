@@ -1,0 +1,1 @@
+{!! Form::radio($name, $value, $isChecked, ['class'=>'checkbox form-control','id'=>$name, 'style'=>'width: 20px']); !!}

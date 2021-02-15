@@ -1,0 +1,13 @@
+{
+    "name": "Manu",
+    "alias": "manu",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Manu\\Providers\\ManuServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
