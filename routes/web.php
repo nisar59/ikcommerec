@@ -38,6 +38,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth:' . U
     Route::get('invoices/list', ['as' => 'order', 'uses' => 'Admin\OrderController@invoices']);
     Route::get('invoice/edit/{id}', ['as' => 'order', 'uses' => 'Admin\OrderController@invoicesedit']);
     Route::get('invoice/status/{id}', ['as' => 'order', 'uses' => 'Admin\OrderController@invoicesstatus']);
+    Route::get('invoice/pdf/{id}', ['as' => 'order', 'uses' => 'Admin\OrderController@invoicepdf']);
     Route::post('get-data', 'Admin\OrderController@getData');
     Route::get('new', ['as' => 'order', 'uses' => 'Admin\OrderController@create']);
     Route::get('order/edit/{id}', ['as' => 'order', 'uses' => 'Admin\OrderController@edit']);

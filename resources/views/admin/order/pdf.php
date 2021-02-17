@@ -450,9 +450,6 @@
                     </td>
                   </tr>
                   <tr>
-                    <td align="center"><b>{{config('settings.config_invoice_pre_fix')}}{{$data['user']->id}}</b></td>
-                  </tr>
-                  <tr>
                     <td class="content-cell">
                       <div class="f-fallback">
                         <table class="purchase" width="100%" cellpadding="0" cellspacing="0" role="presentation">
@@ -480,7 +477,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <table style="margin: 10px 0;"> 
+                              <table style="margin: 10px 0;">
                                 <tr>
                                   <th><h2 style="margin-bottom: 0px; color: #777777;">Bill To:</h2></th>
                                 </tr>
@@ -559,7 +556,7 @@
                                   <td width="10%" colspan="3" class="purchase_footer" valign="middle"> 
                                   </td>
                                   <td width="22.5%" class="purchase_footer" valign="middle">
-                                    <p class="f-fallback purchase_total purchase_total--label" align="left"><b style="font-weight: bold;">SUBTOTAL</b></p>
+                                    <p class="f-fallback purchase_total purchase_total--label" align="center">SUBTOTAL</p>
                                   </td>
                                   <td width="22.5%" class="purchase_footer" valign="middle" align="right">
                                     <p class="f-fallback purchase_total">Rs.{{$data['user']->sub_total}}</p>
@@ -569,7 +566,7 @@
                                   <td width="22.5%" colspan="3" class="purchase_footer" valign="middle"> 
                                   </td>
                                   <td width="22.5%" class="purchase_footer" valign="middle">
-                                    <p class="f-fallback purchase_total purchase_total--label" align="left"><b style="font-weight: bold;">Delivery / Charges</b></p>
+                                    <p class="f-fallback purchase_total purchase_total--label" align="center">Delivery / Charges</p>
                                   </td>
                                   <td width="22.5%" class="purchase_footer" valign="middle" align="right">
                                     <p class="f-fallback purchase_total">Rs.{{$data['user']->shipping}}</p>
@@ -579,7 +576,7 @@
                                   <td width="22.5%" colspan="3" class="purchase_footer" valign="middle"> 
                                   </td>
                                   <td width="22.5%" class="purchase_footer" valign="middle">
-                                    <p class="f-fallback purchase_total purchase_total--label" align="left"><b style="font-weight: bold;">Discount</b></p>
+                                    <p class="f-fallback purchase_total purchase_total--label" align="center">Discount</p>
                                   </td>
                                   <td width="22.5%" class="purchase_footer" valign="middle" align="right">
                                     <p class="f-fallback purchase_total">Rs.{{$data['user']->discount}}</p>
@@ -589,7 +586,7 @@
                                   <td width="25%" colspan="3" class="purchase_footer" valign="middle"> 
                                   </td>
                                   <td width="25%" class="purchase_footer" valign="middle">
-                                    <p class="f-fallback purchase_total purchase_total--label" align="left"><b style="font-weight: bold;">GRAND TOTAL</b></p>
+                                    <p class="f-fallback purchase_total purchase_total--label" align="center">GRAND TOTAL</p>
                                   </td>
                                   <td width="25%" class="purchase_footer" valign="middle" align="right">
                                     <p class="f-fallback purchase_total">Rs.{{$data['user']->total}}</p>

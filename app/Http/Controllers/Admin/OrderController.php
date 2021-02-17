@@ -32,6 +32,8 @@ use App\Models\Transactions;
 use Config;
 use App\Exports\ProductSalesExport;
 use Maatwebsite\Excel\Facades\Excel;
+use PDF;
+
 
 class OrderController extends Controller {
 
@@ -343,6 +345,47 @@ class OrderController extends Controller {
         //dd($this->data['user']);
         return view($this->viewDir.'invoiceedit')->with('data', $this->data);
     }
+
+
+
+
+public function invoicepdf($id)
+{
+         
+        $this->data['user'] = Order::find($id);
+        $this->data['order_status'] = array(''=>'Select','Payment Pending'=>'Payment Pending','Processing'=>'Processing','On Hold'=>'On Hold','Completed'=>'Completed','Failed'=>'Failed','Cancelled'=>'Cancelled','Refund'=>'Refund');
+        //dd($this->data);
+  
+        $pdf = PDF::loadView($this->viewDir.'pdf', ['data' => $this->data]);
+      //return $pdf->download('invoice.pdf');
+     return $pdf->stream('invoice.pdf');
+        //return view($this->viewDir.'invoiceedit')->with('data', $this->data);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public function invoicesstatus($id) {
         // dd($id);
