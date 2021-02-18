@@ -4,14 +4,14 @@
       <title>INVOICE PDF</title>
       <style type="text/css">
          .container{
-         border:1px solid purple;
+         border:1px solid #626ed4;
          padding: 5px;
          padding-bottom: 20%;
          }
          h2{
          width: 100%;
          color:white;
-         background-color: purple;
+         background-color: #626ed4;
          text-align: center;
          margin: 0;
          padding: 10px;
