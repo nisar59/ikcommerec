@@ -107,7 +107,7 @@
                                                     <button class="btn btn-block btn-dark px-4 coupon_apply" type="button" id="subscribeButtonExample2"><i class="fas fa-tags d-md-none coupon_apply"></i><span class="d-none d-md-inline">Apply coupon</span></button>
                                                 </div>
                                             </div>
-                                        </form>gbhgdfgdgdf
+                                        </form>
                                         <!-- End Apply coupon Form -->
                                     </div>
                                     <div class="d-md-flex">
